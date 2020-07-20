@@ -1,0 +1,178 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #5a8d80;
+  }
+
+/** HEADER **/
+#header-nav {
+  background-color: #868688;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+
+  color: #2e4420;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list p {
+  color: #1f4136;
+  text-align: center;
+}
+#nav-list p:hover {
+  background: #E7E7E7;
+}
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #1f4136;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+  
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #1f4136;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+
+#Chicken-tile span, #Beef-tile span, #Sushi-tile span {
+  width: 100%;
+  font-size: 1.8em;
+  color: #fff;
+  opacity: .8;
+  text-align: center;
+}
+#Chicken-tile p, #Beef-tile p, #Sushi-tile p {
+
+  text-align: left;
+}
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #nav-list p {
+    color: #1f413600;
+  }
+  #nav-list p:hover {
+    background: #1f413600;
+  }
+    
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav-list p {
+    color: #1f413600;
+  }
+  #nav-list p:hover {
+    background: #1f413600;
+  }
+  /* Header */
+ 
+  
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-list p {
+    color: #1f413600;
+  }
+  #nav-list p:hover {
+    background: #1f413600;
+  }
+ 
+  /* Home Page */
+  
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+    #collapsable-nav a { /* Collapsed nav Chicken text */
+    font-size: 1.2em;
+  }
+  
+
+  
+  /* End Header */
+
+  /* Home Page */
+  
+
+  
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #Chicken-tile, #Beef-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+
